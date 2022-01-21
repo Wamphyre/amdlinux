@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 20 Jan 2022 22:18:54 +0100
+Source: linux-libre
+Binary: linux-headers-5.16.2-gnu linux-image-5.16.2-gnu linux-libc-dev
+Architecture: amd64
+Version: 5.16.2-gnu-1
+Distribution: daedalus ceres
+Urgency: low
+Maintainer: salva <salva@localhost>
+Changed-By: salva <salva@localhost>
+Description:
+ linux-headers-5.16.2-gnu - GNU Linux-libre headers for 5.16.2-gnu on amd64
+ linux-image-5.16.2-gnu - GNU Linux-libre, version 5.16.2-gnu
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-libre (5.16.2-gnu-1) daedalus ceres; urgency=low
+ .
+   * Custom built GNU Linux-libre.
+Checksums-Sha1:
+ 2fa7fc27ede79b4261899724e28dd88d58602e37 8393652 linux-headers-5.16.2-gnu_5.16.2-gnu-1_amd64.deb
+ 66b1cc945d93d4a96566a2810e829cec0a4e3167 64854616 linux-image-5.16.2-gnu_5.16.2-gnu-1_amd64.deb
+ a17f4aeca23a70b035829956fcd4f69379c6cbd7 1210404 linux-libc-dev_5.16.2-gnu-1_amd64.deb
+ dc0fbe849c637e817fd0176338647adc1925b342 4836 linux-libre_5.16.2-gnu-1_amd64.buildinfo
+Checksums-Sha256:
+ b23061b359c406fd6ef5086666a6f8e4828b2ce152656499159a5b629d225d13 8393652 linux-headers-5.16.2-gnu_5.16.2-gnu-1_amd64.deb
+ 5276c82d09c1bea5d60fc05c995eafff630a8913a4f5bc647952d364681fc044 64854616 linux-image-5.16.2-gnu_5.16.2-gnu-1_amd64.deb
+ 58579b1a3c2852f81dc7d26cf4676d5da90a11f526d4be67f2f1c58ff10339d2 1210404 linux-libc-dev_5.16.2-gnu-1_amd64.deb
+ 5e6321bfc0f62748fc8ce198e13905a461d4c55704b90952c1e41bbc1b98090d 4836 linux-libre_5.16.2-gnu-1_amd64.buildinfo
+Files:
+ 437909fef0c9159e91ec9005fa4dd288 8393652 kernel optional linux-headers-5.16.2-gnu_5.16.2-gnu-1_amd64.deb
+ f2270e9d8226517dbd79d94691ed08a7 64854616 kernel optional linux-image-5.16.2-gnu_5.16.2-gnu-1_amd64.deb
+ 0210af6d622f152c42a6ef9e7da842ec 1210404 devel optional linux-libc-dev_5.16.2-gnu-1_amd64.deb
+ d702bc846f6b0f69b6b13fb445c8d10a 4836 kernel optional linux-libre_5.16.2-gnu-1_amd64.buildinfo
