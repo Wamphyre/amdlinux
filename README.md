@@ -1,4 +1,4 @@
-# amdlinux
+# AMDLinux
 Linux kernel optimized for AMD CPUs.
 
 AMDLinux is a personal and independent Linux kernel optimization project specially customized for AMD CPUs and packaged for GNU/Linux distros of the Debian/Devuan family.
