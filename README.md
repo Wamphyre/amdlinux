@@ -10,7 +10,7 @@ The "Linux-Libre" version of the FSFLA is used as the basis of the Linux-Libre A
 The project offers Linux and Linux-Libre kernel versions, and is divided into 3 different types depending on the task.
 
 1 - DESKTOP KERNEL
-For multipurpose tasks, gaming and desktop work. Patched with SMP PREEMPT.
+For multipurpose tasks, gaming and desktop work. Patched with ZEN SMP PREEMPT. (Only available on regular Linux version)
 
 2 - REAL TIME KERNEL
 For audio/video production and tasks where ultra-low latency is critically needed. Patched with SMP PREEMPT_RT
