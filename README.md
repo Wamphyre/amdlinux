@@ -3,20 +3,20 @@ Linux kernel optimized for AMD CPUs.
 
 AMDLinux is a personal and independent Linux kernel optimization project specially customized for AMD CPUs and packaged for GNU/Linux distros of the Debian/Devuan family.
 
-The idea is to take advantage of the full potential of these CPUs by compiling the kernel specifically using flags only compatible with the Athlon/Opteron/Hammer/K8/Ryzen families.
+The idea is to take advantage of the full potential of these CPUs by compiling the kernel specifically using flags only compatible with all AMD CPUs.
 
 The "Linux-Libre" version of the FSFLA is used as the basis of the Linux-Libre AMDLinux version. 
 
 The project offers Linux and Linux-Libre kernel versions, and is divided into 3 different types depending on the task.
 
 1 - DESKTOP KERNEL
-For multipurpose tasks, gaming and desktop work. Patched with ZEN SMP PREEMPT. (ZEN Only available on regular Linux version)
+For multipurpose tasks, gaming and desktop work. (Compiled with -O3 for maximum performance).
 
 2 - REAL TIME KERNEL
-For audio/video production and tasks where ultra-low latency is critically needed. Patched with SMP PREEMPT_RT
+For audio/video production and tasks where ultra-low latency is critically needed. Patched with SMP PREEMPT_RT and compiled with -O3
 
 3 - SERVER KERNEL
-Designed for server loads, fully patched for SMP.
+Designed for server loads, fully patched for SMP with -O3 flag
 
 The kernel is provided directly as easily installable binaries (.deb) and is NOT COMPATIBLE WITH INTEL CPUs.
 
